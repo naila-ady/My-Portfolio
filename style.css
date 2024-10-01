@@ -319,7 +319,7 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
    }
-  @media only screen and (min-width:400px ) and (max-width:844px) {
+  @media only screen and (min-width:200px ) and (max-width:844px) {
     nav{
         /* background-color: aqua; */
         display:flex;
