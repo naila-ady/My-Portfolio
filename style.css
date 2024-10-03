@@ -319,51 +319,150 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
    }
-  @media only screen and (min-width:200px ) and (max-width:844px) {
+ /* media query section */
+@media only screen and (min-width:367px) and (max-width:579px) {
     nav{
-        /* background-color: aqua; */
-        display:flex;
+       
+         display:flex;
         flex-direction: column;
-      
+    }
+    .content h4{
+        margin-top: 80px;
+    }
+    #bttn{
+           margin-bottom: 10px;
     }
     .main{
-        
         display: flex;
         flex-direction: column;
     }
-    .main .about-text{
-display:flex;
-flex-direction: column;
-width: 380px;
-margin-left: 140px;
-align-items: center;
-
-    }
-.title h2{
-    width:fit-content;
+     .main .about-text{ 
+   display:flex; 
+   flex-direction: column;
+  width: 360px;
+  margin-left: 120px;
+  align-items: center;
+     }
+     .main img{
+        margin-left: 80px;
+        width:350px;
 }
-.content{
+ .title {
+ 
+    width:310px;
+    margin-left:50px;
+}
+.content{ 
     margin-top: 40px;
 }
-
- .newslatter form{
-    width:350px;
- }  
+.newslatter form{  
+    width:320px;
+ }
  .card{
     width:250px;
     height:100%;
+    margin-right: 60px;
  }
-
-   .services .box{
+ .services .box{
     display: flex;
     flex-direction: column;
    }
-   .services h2{
-    display: flex;
-margin-left: 20px;
-
+ .title h2{
+        font-size: 60px;
+        width: 310px;
+        margin-top: 0px;
+    } 
+   .contactme p{
+    margin-left:30px;
    }
    footer p:nth-child(2){
     width:350px;
    }
+   }
+   @media  only screen and  (min-width:580px) and (max-width:948px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+     
+     .services .box{
+        display:flex;
+flex-wrap: wrap;
+    
+   }
+   .title h2{
+    font-size: 80px;
+    width: 310px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.contactme p{
+    margin-left:30px;
+   } 
+}
+@media only screen and (min-width:266px) and (max-width:368px){
+    nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content{
+       margin-top:280px;
+   width: 255px;
+   left:0%;
+} 
+.main{
+    display: flex;
+    flex-direction: column;
+}
+ .main .about-text{ 
+display:flex; 
+flex-direction: column;
+width: 250px;
+margin-left:140px;
+align-items: center;
+}
+ .main img{
+    margin-left: 80px;
+    width:250px;
+}
+.title {
+    width:310px;
+    margin-left:50px;
+}
+.content{ 
+        margin-top: 320px;
+}
+.newslatter form{  
+    width:320px;
+ }
+.card{
+    width:200px;
+    height:100%;
+      left:0px; 
+ }
+ .services .box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .title{
+    width:200px;
+    margin-left:50px;
+   }
+  .title h2{
+         font-size: 40px;
+        width: 200px;
+        margin-top: 0px;
+    }  
+.contactme p{
+    margin-left: 20px;
+}
+   footer p:nth-child(2){
+    width:200px;
+    margin-left: 20px;
+   }
+
 }
